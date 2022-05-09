@@ -13,11 +13,11 @@
         <v-container class="py-16">
           <v-row>
             <v-col
-              v-for="n in galleryImage"
-              :key="n"
+              v-for="(n, i) in galleryImage"
+              :key="i"
               class="d-flex child-flex"
               cols="4"
-              xl="3"
+              xl="4"
             >
               <v-img
                 :src="n.src"
@@ -50,33 +50,6 @@
 export default {
   data() {
     return {
-      testimonials: [
-        {
-          avtar: 'person-4.jpg',
-          name: 'Mario Speedwagon',
-          post: 'Creative Editor of ABC LTD',
-        },
-        {
-          avtar: 'person-8.jpg',
-          name: 'Petey Cruiser',
-          post: 'CEO of Json LLC',
-        },
-        {
-          avtar: 'person-7.jpg',
-          name: 'Anna Sthesia',
-          post: 'Director of Cleaner LTD',
-        },
-        {
-          avtar: 'person-10.jpg',
-          name: 'Paul Molive',
-          post: 'Manager of Torson LTD',
-        },
-        {
-          avtar: 'person-9.jpg',
-          name: 'Gail Forcewind',
-          post: 'Human Resource Manager of Humibed LLC',
-        },
-      ],
       galleryImage: [
         {
           src: 'ai1.jpg',
@@ -95,12 +68,6 @@ export default {
         },
         {
           src: 'ai-health.jpg',
-        },
-        {
-          src: 'ai-robots.jpg',
-        },
-        {
-          src: 'ai6.jpg',
         },
       ],
     }

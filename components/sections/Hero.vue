@@ -21,7 +21,7 @@
             </div>
             <p class="mb-5">{{ carousel.subHeading }}</p>
             <v-btn :x-large="$vuetify.breakpoint.smAndUp" class="my-3 primary"
-              >Get Started</v-btn
+              >Read More</v-btn
             >
             <span class="mx-2 my-4"></span>
           </div>
@@ -38,7 +38,7 @@ export default {
       carouselsData: [
         {
           src: 'ai1.jpg',
-          heading: ' Cybersecurity ',
+          heading: ' Cyber-security ',
           subHeading:
             'AI systems can help recognise and fight cyberattacks and other cyber threats based on the continuous input of data, recognising patterns and backtracking the attacks. ',
         },

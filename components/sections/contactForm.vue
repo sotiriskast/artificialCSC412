@@ -24,9 +24,9 @@
     </v-row>
     <v-row>
       <v-col
-        ><v-btn class="my-2" color="primary">SEND MESSAGE</v-btn
-        ><v-btn class="my-2 ml-3">clear</v-btn></v-col
-      >
+        ><v-btn class="my-2" color="primary">SEND MESSAGE</v-btn>
+        <!--<v-btn class="my-2 ml-3">clear</v-btn>-->
+      </v-col>
     </v-row>
   </v-form>
 </template>

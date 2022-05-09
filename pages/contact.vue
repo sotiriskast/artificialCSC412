@@ -10,36 +10,36 @@
               <v-list two-line class="transparent">
                 <v-list-item>
                   <v-list-item-icon>
-                    <v-icon color="primary"> mdi-map-marker </v-icon>
+                    <v-icon color="primary"> mdi-map-marker</v-icon>
                   </v-list-item-icon>
 
                   <v-list-item-content>
                     <v-list-item-title>ADDRESS</v-list-item-title>
                     <v-list-item-subtitle
-                      >1400 Main Street, Orlando, FL 79938</v-list-item-subtitle
-                    >
+                      >1400 Main Street, Larnaca, LCA 123456
+                    </v-list-item-subtitle>
                   </v-list-item-content>
                 </v-list-item>
 
                 <v-list-item>
                   <v-list-item-icon>
-                    <v-icon color="primary"> mdi-email </v-icon>
+                    <v-icon color="primary"> mdi-email</v-icon>
                   </v-list-item-icon>
 
                   <v-list-item-content>
                     <v-list-item-title>EMAIL</v-list-item-title>
                     <v-list-item-subtitle
-                      >info@example.com</v-list-item-subtitle
-                    >
+                      >info@example.com
+                    </v-list-item-subtitle>
                     <v-list-item-subtitle
-                      >support@example.com</v-list-item-subtitle
-                    >
+                      >support@example.com
+                    </v-list-item-subtitle>
                   </v-list-item-content>
                 </v-list-item>
 
                 <v-list-item>
                   <v-list-item-icon>
-                    <v-icon color="primary"> mdi-phone </v-icon>
+                    <v-icon color="primary"> mdi-phone</v-icon>
                   </v-list-item-icon>
 
                   <v-list-item-content>
@@ -49,47 +49,10 @@
                   </v-list-item-content>
                 </v-list-item>
               </v-list>
-              <div class="text-h6 font-weight-bold mt-12 mb-5">
-                Business Hours
-              </div>
-              <v-list two-line class="transparent">
-                <v-list-item>
-                  <v-list-item-icon>
-                    <v-icon color="primary"> mdi-clock </v-icon>
-                  </v-list-item-icon>
-                  <v-list-item-content>
-                    <v-list-item-title>MONDAY to FRIDAY </v-list-item-title>
-                    <v-list-item-subtitle>9am to 5pm</v-list-item-subtitle>
-                  </v-list-item-content>
-                </v-list-item>
-
-                <v-list-item>
-                  <v-list-item-icon>
-                    <v-icon color="primary"> mdi-clock </v-icon>
-                  </v-list-item-icon>
-                  <v-list-item-content>
-                    <v-list-item-title>SATURDAY</v-list-item-title>
-                    <v-list-item-subtitle>9am to 2pm</v-list-item-subtitle>
-                  </v-list-item-content>
-                </v-list-item>
-
-                <v-list-item>
-                  <v-list-item-icon>
-                    <v-icon color="primary"> mdi-clock </v-icon>
-                  </v-list-item-icon>
-                  <v-list-item-content>
-                    <v-list-item-title>SUNDAY</v-list-item-title>
-                    <v-list-item-subtitle>cLOSED</v-list-item-subtitle>
-                  </v-list-item-content>
-                </v-list-item>
-              </v-list>
             </v-col>
             <v-col md="7" cols="12">
               <div class="text-h4 font-weight-black mb-8">Contact Us</div>
-              <p class="mb-10">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
+              <p class="mb-10"></p>
               <contactForm />
             </v-col>
           </v-row>
@@ -101,6 +64,7 @@
 
 <script>
 import contactForm from '~/components/sections/contactForm.vue'
+
 export default {
   components: {
     contactForm,
@@ -109,7 +73,7 @@ export default {
     return {
       heroAlt: [
         {
-          src: 'pexels-andrea-piacquadio-3830745.jpg',
+          src: 'ai8.jpg',
           heading: ' Contact Us ',
         },
       ],
