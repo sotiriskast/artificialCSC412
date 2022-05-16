@@ -1,3 +1,4 @@
 module.exports = {
-  publicPath: '/artificialCSC412/',
+  publicPath:
+    process.env.NODE_ENV === 'production' ? '/artificialCSC412/' : '/',
 }
