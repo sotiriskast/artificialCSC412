@@ -107,22 +107,22 @@ export default {
         {
           icon: 'mdi-folder-home-outline',
           title: 'Home',
-          to: '/artificialCSC412/',
+          to: '/',
         },
         {
           icon: 'mdi-account',
           title: 'About',
-          to: '/artificialCSC412/about',
+          to: '/about',
         },
         {
           icon: 'mdi-folder-image',
           title: 'Gallery',
-          to: '/artificialCSC412/gallery',
+          to: '/gallery',
         },
         {
           icon: 'mdi-contacts',
           title: 'Contact',
-          to: '/artificialCSC412/contact',
+          to: '/contact',
         },
       ],
     }
